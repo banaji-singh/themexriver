@@ -1,0 +1,105 @@
+/* Section4 */
+/* Section4 */
+/* Section4 */
+
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+
+.s4-main-box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 90%;
+  height: 80vh;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.s4-contaienr-2 {
+  width: 55%;
+  height: 100%;
+}
+
+.s4-contaienr-2-child {
+  padding: 30px;
+  color: white;
+}
+
+
+/* Icon + text layout */
+.s4-icon-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.s4-icon-box h1 {
+  font-size: 2em;
+}
+
+/* Circular gradient background for the icon */
+.s4-icon-circle {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #34caff, #0a58f2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Icon image inside the circle */
+.s4-icon-circle img {
+  width: 23px;
+  height: 23px;
+}
+
+/* Subtitle text */
+.s4-icon-subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(to right, #4ac9f0, #0a58f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.section4-title-1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.section4-service-point-1,
+.section4-service-point-2 {
+  font-size: 1.2em;
+
+}
+
+/* Button animation css */
+.section4-url-1 {
+  display: inline-block;
+  padding: 15px 30px;
+  width: 70px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(to right, #4ac9f0, #0a58f2);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section4-url-1:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(10, 88, 242, 0.2);
+}
+
