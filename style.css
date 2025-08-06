@@ -128,37 +128,6 @@ header nav div ul li a:hover {
   margin-top: -5px;
 }
 
-
-/* animation title text */
-
-@keyframes fadeside {
-  0% {
-    opacity: 0;
-    transform: translateX(20px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.animate-on-load {
-  opacity: 0;
-  animation: fadeside 1s ease-out forwards;
-}
-
-.animate-delay-1 {
-  animation-delay: 0.3s;
-}
-
-.animate-delay-2 {
-  animation-delay: .5s;
-}
-
-
-
-
 /* hero-section */
 /* hero-section */
 /* hero-section */
