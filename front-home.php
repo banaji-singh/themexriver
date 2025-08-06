@@ -128,7 +128,9 @@
     </div>
 </section>
 
-<!-- Section 2 --><!-- Section 2 --><!-- Section 2 -->
+<!-- Section 2 -->
+<!-- Section 2 -->
+<!-- Section 2 -->
 
 <section class="section2">
     <article class="three-box-article">
@@ -156,7 +158,9 @@
     </article>
 </section>
 
-<!-- Section 3 --><!-- Section 3 --><!-- Section 3 -->
+<!-- Section 3 -->
+<!-- Section 3 -->
+<!-- Section 3 -->
 
 <section class="section3">
 
@@ -169,7 +173,8 @@
             <p class="subtitle"><?php the_field('section_subtitle'); ?></p>
         </div>
         <div class="s3-top-title">
-            <h1 class="section3-title-1" data-aos="zoom-in" data-aos-delay="100"><?php the_field('section3-title-1');?></h1>
+            <h1 class="section3-title-1" data-aos="zoom-in" data-aos-delay="100"><?php the_field('section3-title-1');?>
+            </h1>
         </div>
     </div>
 
@@ -243,7 +248,9 @@
     </div>
 </section>
 
-<!-- Section 4 --><!-- Section 4 --><!-- Section 4 -->
+<!-- Section 4 -->
+<!-- Section 4 -->
+<!-- Section 4 -->
 
 <section class="section4">
     <div class="s4-main-box"
@@ -253,10 +260,11 @@
         </div>
 
         <!-- Container2 -->
-        <div class="s4-contaienr-2" data-aos="zoom-in" data-aos-delay="100" style="background: url('<?php echo get_template_directory_uri();?>/assets/section-4-container-2-background-img.webp');">
+        <div class="s4-contaienr-2" data-aos="zoom-in" data-aos-delay="100"
+            style="background: url('<?php echo get_template_directory_uri();?>/assets/section-4-container-2-background-img.webp');">
             <div class="s4-contaienr-2-child">
                 <!-- Icon Box -->
-                <div class="s4-icon-box" >
+                <div class="s4-icon-box">
                     <div class="s4-icon-circle">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/subtitle-icon.webp" alt="">
                     </div>
@@ -266,7 +274,8 @@
                 <h1 class="section4-title-1"><?php the_field('section4-title-1');?></h1>
                 <p class="section4-service-point-1">✔️<?php the_field('section4-service-point-1');?></p>
                 <p class="section4-service-point-2">✔️<?php the_field('section4-service-point-2');?></p>
-                <a class="section4-url-1" href="<?php the_field('section4-url-1');?>"><?php the_field('section4-url-heading-1');?></a>
+                <a class="section4-url-1"
+                    href="<?php the_field('section4-url-1');?>"><?php the_field('section4-url-heading-1');?></a>
             </div>
         </div>
 
@@ -275,7 +284,9 @@
 
 </section>
 
-<!-- Section 5 --><!-- Section 5 --><!-- Section 5 -->
+<!-- Section 5 -->
+<!-- Section 5 -->
+<!-- Section 5 -->
 
 <section class="section5">
     <div class="s5-main-container">
@@ -292,22 +303,78 @@
             <h1 class="s5-title-1" data-aos="zoom-in" data-aos-delay="100"><?php the_field('s5-title-1');?></h1>
             <!-- Paragraph -->
             <!-- Service point -->
-            <p class="s5-service-point-1" data-aos="zoom-in" data-aos-delay="300">✔️<?php the_field('s5-service-point-1');?></p>
-            <p class="s5-service-point-2" data-aos="zoom-in" data-aos-delay="300">✔️<?php the_field('s5-service-point-2');?></p>
-            <p class="s5-service-point-3" data-aos="zoom-in" data-aos-delay="300">✔️<?php the_field('s5-service-point-3');?></p>
+            <p class="s5-service-point-1" data-aos="zoom-in" data-aos-delay="300">
+                ✔️<?php the_field('s5-service-point-1');?></p>
+            <p class="s5-service-point-2" data-aos="zoom-in" data-aos-delay="300">
+                ✔️<?php the_field('s5-service-point-2');?></p>
+            <p class="s5-service-point-3" data-aos="zoom-in" data-aos-delay="300">
+                ✔️<?php the_field('s5-service-point-3');?></p>
 
             <!-- Button -->
-            <a class="s5-url-1" data-aos="zoom-in-right" data-aos-delay="100" href="<?php the_field('s5-url-1');?>">MORE SERVICE</a>
+            <a class="s5-url-1" data-aos="zoom-in-right" data-aos-delay="100" href="<?php the_field('s5-url-1');?>">MORE
+                SERVICE</a>
         </div>
-        <div class="s5-container-2" style="background:url('<?php echo get_template_directory_uri();?>/assets/section5-container2-bg-img.webp');">
+        <div class="s5-container-2"
+            style="background:url('<?php echo get_template_directory_uri();?>/assets/section5-container2-bg-img.webp');">
             <div class="s5-container-2-child">
                 <h1 data-aos="zoom-in-left" data-aos-delay="100">System upgrades</h1>
                 <h1 data-aos="zoom-in-left" data-aos-delay="100">Digital transfer</h1>
                 <h1 data-aos="zoom-in-left" data-aos-delay="100">IT development</h1>
                 <h1 data-aos="zoom-in-left" data-aos-delay="100">No hard contracts</h1>
             </div>
-            
+
         </div>
+    </div>
+</section>
+
+<section class="section6">
+    <div class="s6-main-container">
+        <div class="s6-container-1">
+            <div class="s6-container-1-child-1" data-aos="zoom-in-up" data-aos-delay="100">
+                <div class="s6-container-1-icon-box">
+                    <i class="fas fa-globe fa-3x"></i>
+                    <strong class="scrollCount-1">96%</strong>
+                </div>
+                <div class="s6-child-title">
+                    <h1><?php the_field('s6-container-1-child-title-1'); ?></h1>
+                </div>
+            </div>
+            <div class="s6-container-1-child-2" data-aos="zoom-in-up" data-aos-delay="100">
+                <div class="s6-container-1-icon-box">
+                    <i class="fas fa-chart-line fa-3x"></i>
+                    <strong class="scrollCount-2">89%</strong>
+                </div>
+                <div class="s6-child-title">
+                    <h1><?php the_field('s6-container-1-child-title-2');?></h1>
+                </div>
+            </div>
+            <div class="s6-container-1-child-3" data-aos="zoom-in-up" data-aos-delay="100">
+                <div class="s6-container-1-icon-box">
+                    <i class="fas fa-users-cog fa-3x"></i>
+                    <strong class="scrollCount-3">92%</strong>
+                </div>
+                <div class="s6-child-title">
+                    <h1><?php the_field('s6-container-1-child-title-3');?></h1>
+                </div>
+            </div>
+        </div>
+        <section class="testimonial-section">
+            <div class="testimonial-content">
+                <h2><?php the_field('s6-container-2-testimonial-content-title-1');?></h2>
+            </div>
+            <div class="testimonial-stats">
+                <div class="avatars">
+                    <img src="<?php the_field('s6-container-2-testimonial-stats-img-1');?>" alt="Client 1">
+                    <img src="<?php the_field('s6-container-2-testimonial-stats-img-2');?>" alt="Client 2">
+                    <img src="<?php the_field('s6-container-2-testimonial-stats-img-3');?>" alt="Client 3">
+                </div>
+                <div class="stats-text">
+                    <h3>97% Client Satisfaction</h3>
+                    <p>1,313 POSITIVE REVIEWS LAST YEAR</p>
+                </div>
+            </div>
+        </section>
+
     </div>
 </section>
 

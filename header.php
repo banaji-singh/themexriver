@@ -28,6 +28,49 @@
         <button id='first-btn'><span>REQUEST A QUOTE</span></button>
     </header>
     <hr>
+    <script>
+  let animated = false;
+
+  function animateStrongCounter(element, end, speed) {
+    let count = 0;
+    const step = () => {
+      element.textContent = `${count}%`;
+      count++;
+      if (count <= end) {
+        setTimeout(step, speed);
+      }
+    };
+    step();
+  }
+
+  function isInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top <= window.innerHeight &&
+      rect.bottom >= 0
+    );
+  }
+
+  window.addEventListener("scroll", function () {
+    const section = document.querySelector(".s6-container-1");
+    if (isInViewport(section) && !animated) {
+      animated = true;
+
+      // Counter 1
+      const counter1 = document.querySelector(".scrollCount-1");
+      animateStrongCounter(counter1, 95, 30);
+
+      // Counter 2
+      const counter2 = document.querySelector(".scrollCount-2");
+      animateStrongCounter(counter2, 89, 28);
+
+      // Counter 3
+      const counter3 = document.querySelector(".scrollCount-3");
+      animateStrongCounter(counter3, 92, 29);
+    }
+  });
+</script>
+
     
 
 </body>
