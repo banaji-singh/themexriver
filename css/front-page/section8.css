@@ -1,0 +1,59 @@
+.section-8{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s8-container-2{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.s8-icon-box{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.s8-icon-box-background{
+  background: linear-gradient(135deg, #4fc3f7, #1e88e5);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.s8-icon-box-subtitle{
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(to right, #4fc3f7, #1e88e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s8-container-2-child-1,.s8-container-2-child-2,.s8-container-2-child-3,.s8-container-2-child-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.s8-container-2-child-1-img i,.s8-container-2-child-2-img i,.s8-container-2-child-3-img i,.s8-container-2-child-4-img i{
+  font-size: 30px;
+  color: white;
+}
+.s8-container-2-child-1-img ,.s8-container-2-child-2-img,.s8-container-2-child-3-img ,.s8-container-2-child-4-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background:linear-gradient( #4fc3f7, #1e88e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

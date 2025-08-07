@@ -14,6 +14,8 @@ function load_front_page_styles() {
     wp_enqueue_style('portfolio-style', get_template_directory_uri() . '/css/front-page/section4.css');
     wp_enqueue_style('testimonials-style', get_template_directory_uri() . '/css/front-page/section5.css');
     wp_enqueue_style('contact-style', get_template_directory_uri() . '/css/front-page/section6.css');
+    wp_enqueue_style('contact-form', get_template_directory_uri() . '/css/front-page/section7.css');
+    wp_enqueue_style('section8', get_template_directory_uri() . '/css/front-page/section8.css');
 }
 add_action('wp_enqueue_scripts', 'load_front_page_styles');
 

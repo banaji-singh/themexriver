@@ -1,0 +1,94 @@
+
+/* Section 7 */
+.s7-main-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.s7-background-img img{
+  box-sizing: border-box;
+  width: 600px;
+  height: 700px;
+  border: cover;
+  border-radius: 4px;
+
+}
+
+
+
+
+/* Section7-Container-2  *//* Section7-Container-2  */
+/* Base input & textarea styling */
+.cf7-field {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #00000052;
+  background-color: #f9f9f9;
+  font-size: 15px;
+  border-radius: 0px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  max-width: 600px;
+}
+
+/* Input focus effect */
+.cf7-field:focus {
+  border-color: #222222;
+  background-color: #fff;
+}
+
+/* Submit button styling */
+.wpcf7-submit {
+  padding: 12px 28px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit button hover */
+.wpcf7-submit:hover {
+  background-color: #444;
+}
+
+.s7-icon-box{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.s7-icon-box-background{
+  background: linear-gradient(135deg, #4fc3f7, #1e88e5);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.s7-icon-box-subtitle{
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(to right, #4fc3f7, #1e88e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s7-container-2-title-1{
+  font-size: 37px;
+  width: 600px;
+  margin-top: 0px;
+}
+
+.s7-container-2-paragraph-1{
+  font-size: 20px;
+  width: 600px;
+  color: #1a1a1ab2;
+}
+
+
