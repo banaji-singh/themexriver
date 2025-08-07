@@ -1,90 +1,86 @@
-
 <!-- Section 3 -->
 <!-- Section 3 -->
 <!-- Section 3 -->
 
-<section class="section3">
+<section class="section3 py-5 bg-light">
 
-    <!-- top section icon box -->
-    <div class="s3-top-box">
-        <div class="icon-box">
-            <div class="icon-bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/subtitle-icon.webp"
-                    alt="">
+    <div class="container">
+
+        <!-- Top icon + subtitle + title -->
+        <div class="s3-top-box">
+            <div class="icon-box">
+                <div class="icon-bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/subtitle-icon.webp"
+                        alt="">
+                </div>
+                <p class="subtitle"><?php the_field('section_subtitle'); ?></p>
             </div>
-            <p class="subtitle"><?php the_field('section_subtitle'); ?></p>
-        </div>
-        <div class="s3-top-title">
-            <h1 class="section3-title-1" data-aos="zoom-in" data-aos-delay="100"><?php the_field('section3-title-1');?>
-            </h1>
-        </div>
-    </div>
-
-
-
-    <div class="s3-top-section-title">
-        <div class="s3-container-1">
-            <div class="bussiness-section-box-1" data-aos="flip-left" data-aos-delay="100">
-                <!-- Icon -->
-                <i class="fas fa-users-cog fa-3x" style="color: #3498db;"></i>
-                <!-- Title -->
-                <h1 class="section3-bussiness-section-title-1"><?php the_field('section3-bussiness-section-title-1');?>
+            <div class="s3-top-title">
+                <h1 class="section3-title-1" data-aos="zoom-in" data-aos-delay="100">
+                    <?php the_field('section3-title-1');?>
                 </h1>
-                <!-- Paragraph -->
-                <p class="section3-bussiness-section-paragraph-1">
-                    <?php the_field('section3-bussiness-section-paragraph-1');?></p>
-                <hr>
-                <!-- for the link -->
-                <a class="section3-bussiness-section-url-1"
-                    href="<?php the_field('section3-bussiness-section-url-1');?>">View More &rarr;</a>
             </div>
 
 
-            <div class="bussiness-section-box-2" data-aos="flip-left" data-aos-delay="300">
-                <!-- Icon -->
-                <i class="fas fa-chart-line fa-3x" style="color: #3498db;"></i>
-                <!-- Title -->
-                <h1 class="section3-bussiness-section-title-2"><?php the_field('section3-bussiness-section-title-2');?>
-                </h1>
-                <!-- Paragraph -->
-                <p class="section3-bussiness-section-paragraph-2">
-                    <?php the_field('section3-bussiness-section-paragraph-2');?></p>
-                <hr>
-                <!-- for the link -->
-                <a class="section3-bussiness-section-url-2"
-                    href="<?php the_field('section3-bussiness-section-url-2');?>">View More &rarr;</a>
-            </div>
 
+            <!-- Cards Grid -->
+            <div class="row g-4">
 
-            <div class="bussiness-section-box-3" data-aos="flip-left" data-aos-delay="500">
-                <!-- Icon -->
-                <i class="fas fa-globe fa-3x" style="color: #3498db;"></i>
-                <!-- Title -->
-                <h1 class="section3-bussiness-section-title-3"><?php the_field('section3-bussiness-section-title-3');?>
-                </h1>
-                <!-- Paragraph -->
-                <p class="section3-bussiness-section-paragraph-3">
-                    <?php the_field('section3-bussiness-section-paragraph-3');?></p>
-                <hr>
-                <!-- for the link -->
-                <a class="section3-bussiness-section-url-3"
-                    href="<?php the_field('section3-bussiness-section-url-3');?>">View More &rarr;</a>
-            </div>
+                <!-- CARD 1 -->
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" data-aos="flip-left" data-aos-delay="100">
+                    <div class="p-4 bg-white rounded shadow-sm h-100 text-center">
+                        <i class="fas fa-users-cog fa-3x mb-3 text-primary"></i>
+                        <h5 class="fw-bold"><?php the_field('section3-bussiness-section-title-1'); ?></h5>
+                        <p><?php the_field('section3-bussiness-section-paragraph-1'); ?></p>
+                        <hr>
+                        <a class="fw-bold text-decoration-none"
+                            href="<?php the_field('section3-bussiness-section-url-1'); ?>">
+                            View More →
+                        </a>
+                    </div>
+                </div>
 
+                <!-- CARD 2 -->
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" data-aos="flip-left" data-aos-delay="300">
+                    <div class="p-4 bg-white rounded shadow-sm h-100 text-center">
+                        <i class="fas fa-chart-line fa-3x mb-3 text-primary"></i>
+                        <h5 class="fw-bold"><?php the_field('section3-bussiness-section-title-2'); ?></h5>
+                        <p><?php the_field('section3-bussiness-section-paragraph-2'); ?></p>
+                        <hr>
+                        <a class="fw-bold text-decoration-none"
+                            href="<?php the_field('section3-bussiness-section-url-2'); ?>">
+                            View More →
+                        </a>
+                    </div>
+                </div>
 
-            <div class="bussiness-section-box-4" data-aos="flip-left" data-aos-delay="700">
-                <!-- icon -->
-                <i class="fas fa-hand-sparkles fa-3x" style="color: #3498db;"></i>
-                <!-- Title -->
-                <h1 class="section3-bussiness-section-title-4"><?php the_field('section3-bussiness-section-title-4');?>
-                </h1>
-                <!-- Paragraph -->
-                <p class="section3-bussiness-section-paragraph-4">
-                    <?php the_field('section3-bussiness-section-paragraph-4');?></p>
-                <hr>
-                <!-- for the link -->
-                <a class="section3-bussiness-section-url-4"
-                    href="<?php the_field('section3-bussiness-section-url-4');?>">View More &rarr;</a>
+                <!-- CARD 3 -->
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" data-aos="flip-left" data-aos-delay="500">
+                    <div class="p-4 bg-white rounded shadow-sm h-100 text-center">
+                        <i class="fas fa-globe fa-3x mb-3 text-primary"></i>
+                        <h5 class="fw-bold"><?php the_field('section3-bussiness-section-title-3'); ?></h5>
+                        <p><?php the_field('section3-bussiness-section-paragraph-3'); ?></p>
+                        <hr>
+                        <a class="fw-bold text-decoration-none"
+                            href="<?php the_field('section3-bussiness-section-url-3'); ?>">
+                            View More →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3" data-aos="flip-left" data-aos-delay="700">
+                    <div class="p-4 bg-white rounded shadow-sm h-100 text-center">
+                        <i class="fas fa-hand-sparkles fa-3x mb-3 text-primary"></i>
+                        <h5 class="fw-bold"><?php the_field('section3-bussiness-section-title-4'); ?></h5>
+                        <p><?php the_field('section3-bussiness-section-paragraph-4'); ?></p>
+                        <hr>
+                        <a class="fw-bold text-decoration-none"
+                            href="<?php the_field('section3-bussiness-section-url-4'); ?>">
+                            View More →
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
 </section>

@@ -1,73 +1,10 @@
-/* Section 2 */
-/* Section 2 */
-/* Section 2 */
 
-/* three-card-article */
-.three-box-article {
-  width: 60%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 10px;
-}
-
-.content1,
-.content2,
-.content3 {
-  background-color: #e2edf881;
-  padding: 20px;
-  width: 200px;
-}
-
-.content1 a,
-.content2 a,
-.content3 a {
+.link-custom {
   text-decoration: none;
-  font-size: 1.3em;
   color: black;
-  font-weight: 600;
+
 }
 
-.content1 a:hover,
-.content2 a:hover,
-.content3 a:hover {
-  color: #007bff;
-  font-weight: 600;
-  transition: 0.3s ease;
-  transition: 0.1 ease-out;
+.link-custom:hover {
+  color:  #0d5fa7;
 }
-
-.content1 h2,
-.content2 h2,
-.content3 h2 {
-  background: linear-gradient(to right, #2da1d6, #0d5fa7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 2.6em;
-}
-
-
-/* Initially hidden */
-.hidden {
-  opacity: 0;
-  transform: translateX(20px);
-}
-
-/* Show animation when in view */
-.show {
-  animation: fadeside 1s ease-out forwards;
-}
-
-/* Optional: staggered delay */
-.animate-delay-1 {
-  animation-delay: 0.2s;
-}
-
-.animate-delay-2 {
-  animation-delay: 0.4s;
-}
-
-.animate-delay-3 {
-  animation-delay: 0.6s;
-}
-

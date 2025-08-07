@@ -40,7 +40,7 @@ header nav div ul li a:hover {
 }
 
 #first-btn {
-  width: 200px;
+width: 200px;
   height: 60px;
   font-size: 15px;
   position: relative;
@@ -51,33 +51,69 @@ header nav div ul li a:hover {
   color: white;
   transition: 0.3s ease;
   cursor: pointer;
-
+  
 }
-
-
+  
+  
 #first-btn:hover {
   opacity: 0.9;
   transform: scale(0.95);
 }
-
+  
 #first-btn span {
   display: inline-block;
   transition: all 0.3s ease;
 }
-
+  
 #first-btn span:hover {
   transform: translateY(-3px);
   transition: all 0.3s ease;
 }
-
-
-
+  
+  
+  
 /* Top Section */
-
+  
 .top-section {
   margin-left: 70px;
   margin-bottom: -100px;
   margin-top: 100px;
+}
+  
+@media (max-width:780px) {
+  
+  .top-section {
+    align-items: left;
+  }
+  .top-section {
+   margin-left: 0px;
+   margin-bottom: 0;
+   margin-top: 30px;
+  }
+  
+  .top-section .icon-box-1 div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top-section .subtitle {
+    font-weight: bold;
+    font-size: 10px;
+    background: linear-gradient(to right, #4fc3f7, #1e88e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .top-section .title {
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -5px;
+  }
+  
 }
 
 .icon-box-1 {
@@ -85,8 +121,6 @@ header nav div ul li a:hover {
   align-items: center;
   gap: 10px;
 }
-
-.icon-box-1 img {}
 
 .top-section {
   align-items: left;
@@ -157,6 +191,32 @@ header nav div ul li a:hover {
   font-size: 20px;
 }
 
+ @media (max-width:780px) {
+  .hero-section {
+  margin-top: 3px;
+  height: 100vh;
+  color: #fff;
+}
+
+.hero-section .container {
+  margin-left: 0px;
+}
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.hero-section .container h1 {
+  font-size: 3em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ }
 
 /* mission section */
 
@@ -322,4 +382,8 @@ header nav div ul li a:hover {
 }
 
 
-
+@media (max-width: 908px) {
+  .mission-section {
+    display: none;
+  }
+}
