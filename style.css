@@ -7,5 +7,148 @@ Description: This is a WooCommerce theme
 
 body {
   font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
 }
+
+/* desktop section */
+.main-nav {
+  display: block;
+}
+
+.sidebar {
+  display: none;
+}
+
+.menu-home-menu-container ul {
+  display: flex;
+  gap: 20px;
+  
+}
+.menu-home-menu-container ul li{
+  text-decoration: none;
+  padding: 10px 20px;
+  
+  background-color: rgb(254, 254, 255);
+  border-radius: 4px;
+}
+
+.menu-home-menu-container ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.menu-home-menu-container ul li a:hover{
+  color: #1e88e5;
+  text-decoration: underline 1.4px solid #1e88e5 ;
+}
+
+.current_page_item{
+  background: linear-gradient(to right, #4fc3f7, #1e88e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+/* header section css */
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.menu-home-menu-container ul li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.menu-toggle {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  z-index: 1001;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Hidden off-screen */
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+
+/* Responsive Breakpoint */
+@media (max-width: 768px) {
+  .sidebar ul {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px;
+    padding-left: 0;
+  }
+  .sidebar {
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  }
+  
+  .sidebar ul li {
+    display: block !important;
+  }
+  .sidebar.active {
+   right: 0;
+  }
+  
+  .sidebar ul li a {
+    display: block;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu-toggle {
+    display: block;
+  }
+  
+  nav.main-nav {
+    display: none; /* Hide regular nav */
+  }
+  
+  #first-btn {
+    display: none; /* Optional: hide CTA on small screens */
+  }
+  
+  .close-btn {
+    position: relative;
+    top: 37px;
+    left: 35px;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40p;
+  }
+}
+
+
+
+/* section 2 */
 

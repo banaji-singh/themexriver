@@ -19,5 +19,4 @@ function load_front_page_styles() {
 }
 add_action('wp_enqueue_scripts', 'load_front_page_styles');
 
-
 ?>
