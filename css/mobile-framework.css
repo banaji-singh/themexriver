@@ -1,0 +1,180 @@
+.c-white{
+    color: white;
+}
+.c-black{
+    color: black;
+}
+.c-light-black{
+    color: rgba(59, 58, 58, 0.822);
+}
+.bg-white{
+    background-color: white;
+}
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 580px) {
+
+.heading-1{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Semi Bold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 2%;
+    
+}
+.heading-2{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Semi Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 2%;
+    
+}
+.heading-3{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Semi Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 2%;
+    
+}
+.heading-4{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Semi Bold;
+    font-size: 26px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 2%;
+    
+}
+.heading-5{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Semi Bold;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 2%;
+    
+}
+.heading-6{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Semi Bold;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 2%;
+    
+}
+
+
+.btn{
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 26px;
+  letter-spacing: 0%;
+  background: linear-gradient(to right,#0ACEFE,#2699FB );
+  padding: 6px 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+
+
+.icon-box-left{
+    display: flex;   
+    gap:8px;
+    align-items: center;
+}
+
+.icon-box-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon-box-bg {
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box-subtitle {
+    font-size: 17px;
+    background: linear-gradient(to bottom, #0ACEFE, #2699FB);
+    -webkit-background-clip: text;
+    /* Chrome, Safari */
+    background-clip: text;
+    /* Standard */
+    -webkit-text-fill-color: transparent;
+    /* Chrome, Safari ke liye */
+    color: transparent;
+    /* Fallback */
+    font-weight: 600;
+}
+
+
+
+
+.btn {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 25px;
+    letter-spacing: 0%;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    padding: 6px 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.p1{
+  font-size: 14px;
+}
+.p2{
+    font-size: 16px;
+}
+.p3{
+    font-size: 18px;
+}
+
+.pointer{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.img-cb{
+    width: 80px;
+    height: 80px;
+}
+
+
+}

@@ -1,0 +1,89 @@
+
+.icon-box-4{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+}
+
+
+
+
+
+.bannerForm {
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.bannerForm form input {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a202c;
+    /* dark text */
+    background-color: white;
+    border: 1px solid #91979e;
+    /* light gray border */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.bannerForm-btn-box {}
+
+.form-btn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    /* dark text */
+    background: linear-gradient(to right, #2699FB, #0ACEFE);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #2699FB;
+    width: 80%;
+}
+
+.col-lg-1-5 {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+
+.bannerFooter-box h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2699FB;
+
+}
+.bannerFooter-box p{
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+}
+.card-box-1 h1{
+    color: #0A2134;
+}
+
+.inner-card-box-1 div h2{
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 15px;
+  leading-trim: NONE;
+  line-height: 26px;
+  letter-spacing: 0%;
+  
+
+}

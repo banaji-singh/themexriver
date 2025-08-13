@@ -1,0 +1,158 @@
+@media only screen and (min-width: 100px) and (max-width: 580px) {
+
+.bannerContent-heading{
+  font-size: 32px;
+  line-height: 47px;
+}
+
+.bannerContent-box-1 p{
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+.section1-btn-1 button{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 6px 16px;
+}
+.
+.s2-box1-content h1, .s2-box2-content h1 ,.s2-box3-content h1{
+  font-size: 30px;
+  background: linear-gradient(to bottom, #0ACEFE, #2699FB);
+  -webkit-background-clip: text;  /* Chrome, Safari */
+  background-clip: text;          /* Standard */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari ke liye */
+  color: transparent; /* Fallback */
+  font-weight: 600;
+}
+.s2-box1-content h3, .s2-box2-content h3 ,.s2-box3-content h3{
+ font-family: Inter;
+ font-weight: 600;
+ font-style: Semi Bold;
+ font-size: 20px;
+ leading-trim: NONE;
+ line-height: 100%;
+ letter-spacing: 0%;
+ text-transform: capitalize;
+
+}
+
+
+.s3-icon-box-1{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+
+.s3-icon-box-1 figure{
+  background: linear-gradient(to right,#0ACEFE,#2699FB);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.s3-icon-box-1 figure i{
+  font-size: 16px;
+}
+.
+
+
+.s3-icon-box-1 h2{
+  font-size: 20px;
+  background: linear-gradient(to bottom, #0ACEFE, #2699FB);
+  -webkit-background-clip: text;  /* Chrome, Safari */
+  background-clip: text;          /* Standard */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari ke liye */
+  color: transparent; /* Fallback */
+  font-weight: 600;
+}
+
+
+.main-heading-s3{
+  font-size: 30px;
+  text-align:start;
+  font-weight:700;
+  color: #0A2134;
+}
+
+.s3-box-2 div button{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 15px;
+  leading-trim: NONE;
+  line-height: 28px;
+  letter-spacing: 0%;
+  background: linear-gradient(to right,#0ACEFE,#2699FB );
+  padding: 6px 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.s3-box-2 figure i{
+  font-size: 50px;
+  background: linear-gradient(to bottom, #0ACEFE, #2699FB);
+  -webkit-background-clip: text;  /* Chrome, Safari */
+  background-clip: text;          /* Standard */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari ke liye */
+  color: transparent; /* Fallback */
+  font-weight: 600;
+}
+
+
+  .bannerForm {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    border-radius: 5px;
+  }
+
+
+
+  .bannerFooter-box h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px !important;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2699FB;
+  }
+
+  .bannerFooter-box p {
+    font-weight: 400;
+    font-size: !important;
+    line-height: 24px;
+  }
+
+  .col-lg-1-5 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+
+  .card h2 {
+    font-size: 16px !important;
+    line-height: 22px;
+  }
+
+  .card p{
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+
+  .card-btn button{
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    padding-right: 32px !important;
+    padding-left: 32px !important;
+  }
+
+
+}

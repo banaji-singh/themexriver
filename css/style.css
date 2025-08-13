@@ -1,0 +1,54 @@
+
+/* new Section */
+
+
+.stat-icon i{
+  font-size: 50px;
+  background: linear-gradient(to bottom, #0ACEFE, #2699FB,#0A2134);
+  -webkit-background-clip: text;  /* Chrome, Safari */
+  background-clip: text;          /* Standard */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari ke liye */
+  color: transparent; /* Fallback */
+  font-weight: 600;
+}
+
+.theme-color{
+  color: #0A2134;
+}
+
+.m-top1{
+  margin-top:50px;
+}
+.m-top2{
+  margin-top: 100px;
+}
+
+.m-top3{
+  margin-top: 150px;
+}
+
+.bg-color-gray{
+  background-color: #bccbdb86;
+}
+
+
+.flex-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+
+.padding-4{
+  padding: 40px;
+}
+.padding-5{
+  padding: 50px;
+}
+
+.padding-6{
+  padding: 60px;
+}

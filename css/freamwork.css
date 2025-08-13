@@ -1,0 +1,164 @@
+.c-white {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+
+
+@media only screen and (min-width: 590px) and (max-width: 1500px) {
+
+    .heading-1-lg {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 18px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 2%;
+
+    }
+
+    .heading-2-lg {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 24px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 2%;
+
+    }
+
+    .heading-3-lg {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 30px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 2%;
+
+    }
+
+    .heading-4-lg {
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Semi Bold;
+        font-size: 35px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 2%;
+
+    }
+
+    .heading-5-lg {
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Semi Bold;
+        font-size: 45px;
+        leading-trim: NONE;
+        line-height: 45px;
+        letter-spacing: 2%;
+
+    }
+
+    .heading-6-lg {
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Semi Bold;
+        font-size: 55px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 2%;
+
+    }
+
+
+    .btn-lg {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 28px;
+        letter-spacing: 0%;
+        background: linear-gradient(to right, #0ACEFE, #2699FB);
+        padding: 8px 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .icon-box-left-lg {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .icon-box-center-lg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .icon-box-bg-lg {
+        background: linear-gradient(to right, #0ACEFE, #2699FB);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-box-subtitle-lg {
+        font-size: 25px;
+        background: linear-gradient(to bottom, #0ACEFE, #2699FB);
+        -webkit-background-clip: text;
+        /* Chrome, Safari */
+        background-clip: text;
+        /* Standard */
+        -webkit-text-fill-color: transparent;
+        /* Chrome, Safari ke liye */
+        color: transparent;
+        /* Fallback */
+        font-weight: 600;
+    }
+
+    .p1-lg {
+        font-size: 18px;
+    }
+
+    .p2-lg {
+        font-size: 20px;
+    }
+
+    .p3-lg {
+        font-size: 22px;
+    }
+
+    .pointer-lg {
+        font-size: 22px;
+        font-weight: 500px;
+        line-height: 35px;
+
+    }
+
+    .img-cb-lg{
+        width: 90px;
+        height: 90px;
+    }
+
+
+}

@@ -1,0 +1,80 @@
+.stats-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 0;
+  background: white;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-icon img {
+  width: 50px;
+  height: 50px;
+  filter: brightness(0) saturate(100%) invert(34%) sepia(96%) saturate(2952%) hue-rotate(194deg) brightness(97%) contrast(101%);
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.stat-number::after {
+  content: "%";
+}
+
+.stat-text {
+  font-size: 14px;
+  color: #333;
+}
+
+
+.s2-box1-content h1, .s2-box2-content h1 ,.s2-box3-content h1{
+  font-size: 40px;
+  background: linear-gradient(to bottom, #0ACEFE, #2699FB);
+  -webkit-background-clip: text;  /* Chrome, Safari */
+  background-clip: text;          /* Standard */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari ke liye */
+  color: transparent; /* Fallback */
+  font-weight: 600;
+}
+
+
+.news-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+}
+.news-card h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.news-card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+.news-card .read-more {
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+.news-card .read-more:hover {
+  text-decoration: underline;
+}
+.blue-line {
+  width: 40px;
+  height: 3px;
+  background: #007bff;
+  margin: 10px 0;
+}
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
