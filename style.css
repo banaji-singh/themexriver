@@ -259,3 +259,22 @@ header {
 .padding-6{
   padding: 60px;
 }
+
+
+.b-r-1{
+  border-radius: 10px !important;
+}
+
+.bg-gridient-r{
+  background: linear-gradient(to left, #1966da,rgb(59, 136, 236));
+}
+.bg-gridient-l{
+  background: linear-gradient(to right, #1966da,rgb(59, 136, 236));
+}
+
+
+.s4-bg-img{
+  background: url('https://themexriver.com/wp/technox/wp-content/uploads/2025/06/cta-2-bg-img.webp');
+  height: 70vh;
+}
+
