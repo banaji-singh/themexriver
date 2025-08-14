@@ -1,0 +1,10 @@
+
+
+.section-1-container-1 h1{
+    font-size: 58px;
+}
+
+/* button hover */
+.about-btn:hover {
+    background-color: #0052cc; /* Hover darker blue */
+}

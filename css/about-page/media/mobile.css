@@ -1,0 +1,38 @@
+
+
+
+@media (max-width: 768px) {
+
+
+    /* Button */
+
+    .about-btn-lg {
+       display: inline-flex;
+       align-items: center;
+       background-color: #0066ff; /* Blue color */
+       color: #fff;
+       font-weight: bold;
+       padding: 8px 16px;
+       border-radius: 50px;
+       text-decoration: none;
+       font-size: 14px;
+       transition: background-color 0.3s ease;
+    }
+    .about-btn .dot-lg {
+        width: 6px;
+        height: 6px;
+        background-color: #00ff9d; /* Green dot */
+        border-radius: 50%;
+        margin-left: 6px;
+    }
+
+    /* for imgae */
+
+    .bg-img {
+      width: 300px;
+      height: 340px;
+      border-radius: 5px;
+    }
+
+    
+}

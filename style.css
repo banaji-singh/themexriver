@@ -150,5 +150,112 @@ header {
 
 
 
-/* section 2 */
+/* Footer Section */
 
+#site-footer {
+    background: #222;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+#site-footer a {
+  
+  text-decoration: none;
+}
+
+.footer-widgets {
+    margin-bottom: 20px;
+}
+.footer-widget {
+    margin: 10px 0;
+}
+
+
+#site-footer h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#site-footer ul li {
+  margin: 8px 0;
+}
+
+#site-footer i {
+  margin-right: 8px;
+  color: #1e88e5; /* icons ke liye golden color */
+  font-size: 24px;
+}
+
+.footer-link{
+  color: #ffffff;
+}
+
+.footer-link:hover{
+  color: #1e88e5;
+}
+
+
+
+
+/* new Section */
+
+
+.stat-icon i{
+  font-size: 50px;
+  background: linear-gradient(to bottom, #0ACEFE, #2699FB,#0A2134);
+  -webkit-background-clip: text;  /* Chrome, Safari */
+  background-clip: text;          /* Standard */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari ke liye */
+  color: transparent; /* Fallback */
+  font-weight: 600;
+}
+
+.theme-color{
+  color: #0A2134;
+}
+
+.m-top1{
+  margin-top:50px;
+}
+.m-top2{
+  margin-top: 100px;
+}
+
+.m-top3{
+  margin-top: 150px;
+}
+
+.bg-color-gray{
+  background-color: #e7e9ec86;
+}
+
+
+.flex-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+
+.gri-color{
+  background: linear-gradient(to bottom, #0ACEFE, #2699FB,#0A2134);
+  -webkit-background-clip: text;  /* Chrome, Safari */
+  background-clip: text;          /* Standard */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari ke liye */
+  color: transparent; /* Fallback */
+}
+
+
+.padding-4{
+  padding: 40px;
+}
+.padding-5{
+  padding: 50px;
+}
+
+.padding-6{
+  padding: 60px;
+}

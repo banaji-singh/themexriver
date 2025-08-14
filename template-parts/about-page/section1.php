@@ -1,7 +1,6 @@
 
-<section class="container-fluid section-1">
-    <div class="container rounded"  style="background-image: url(&quot;https://themexriver.com/wp/technox/wp-content/uploads/2025/07/breadcrumb-img.webp&quot;);">
-        <h1 class="headin-lg-6 c-white p-lg-5">About</h1>
+<section class="container-fluid section-1 p-lg-5 p-4" style="background-image: url(&quot;https://themexriver.com/wp/technox/wp-content/uploads/2025/07/breadcrumb-img.webp&quot;);">
+    <div class="container section-1-container-1 rounded d-flex justify-content-center justify-content-lg-start"  >
+        <h1 class="c-white p-lg-5 fw-lg-bold">About</h1>
     </div>
-
 </section>

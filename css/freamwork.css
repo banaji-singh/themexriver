@@ -89,6 +89,7 @@
         border: none;
         border-radius: 5px;
         color: white;
+        box-shadow: 2px 2px 4px #0A2134;
     }
 
     .icon-box-left-lg {

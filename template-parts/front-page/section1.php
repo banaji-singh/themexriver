@@ -3,13 +3,13 @@
     <div class="container">
         <div class="row">
             <div class="bannerContent-box-1 col-lg-8 ">
-                <div class="s1-icon-box-1">
-                    <figure>
-                        <i></i>
-                    </figure>
-                    <title class="icon-subtitle"></title>
+               <div class="s3-icon-box-1 justify-content-start" data-aos="fade-right" data-aos-delay="200">
+                <figure>
+                    <i class="fa-solid fa-rocket c-white"></i>
+                </figure>
+                <h2 class="subtitle" data-aos="fade-right" data-aos-delay="300">managed it services</h2>
                 </div>
-                <h1 class="bannerContent-heading " data-aos="fade-left" data-aos-delay="100">Reliable IT
+                <h1 class="bannerContent-heading sm-heading " data-aos="fade-left" data-aos-delay="100">Reliable IT
                     Services for Your
                     Organization.
                 </h1>

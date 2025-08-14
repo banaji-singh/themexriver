@@ -1,0 +1,49 @@
+.info-card {
+    background-color: #eaf6ff; /* light blue background */
+    border-radius: 8px;
+    border: 1px solid #d9ecff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icon img {
+    display: inline-block;
+}
+
+.icon-box i {
+    font-size: 32px;           /* icon size */
+    color: #000;               /* icon color */
+}
+
+.icon-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    background-color: #f2f6f8; /* hover color */
+}
+
+
+.icon-box {
+    width: 80px;               /* box size */
+    height: 80px;
+    background-color: #f7f9fa; /* light blue bg */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;        /* rounded corners */
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 rgba(0,0,0,0); /* no shadow default */
+}
+
+
+
+.bg-img-2{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;  /* image ko container me fit karega */
+    background-position: center; /* minimum height rakho taki image dikh*/
+    
+}

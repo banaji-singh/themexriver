@@ -2,7 +2,7 @@
 
 
 
-<section class="container-fluid section5  py-lg-5 py-sm-4 py-3 section4 m-top1">
+<section class="container-fluid section5  bg-color-gray  py-lg-5 py-sm-4 py-3 section4 m-top1">
     <div class="container ">
         <div class="row">
             <div class="col-lg-6">
