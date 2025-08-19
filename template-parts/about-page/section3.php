@@ -1,37 +1,42 @@
+<section class="container-fluid py-5 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
 
+      <!-- Left Content -->
+      <div class="col-lg-6 mb-4 mb-lg-0 px-4 bg-color-gray p-4 rounded">
+        <h1 class="theme-color fw-bold mb-4">
+          Your Journey to Enhanced Managed IT Services
+        </h1>
+        <p class="mb-4">
+          Stratosphere Networks helps businesses bypass the traditional sales process and quickly identify leading Unified solutions for their IT needs.
+        </p>
 
-<section class="container-fluid p-lg-5 p-4 mt-5">
+        <!-- Pointers -->
+        <ul class="list-unstyled">
+          <li data-aos="fade-left" data-aos-delay="300" class="mb-2">
+            <i class="fa-solid fa-check text-primary me-2"></i> 98% Customer Satisfaction Rate
+          </li>
+          <li data-aos="fade-left" data-aos-delay="500" class="mb-2">
+            <i class="fa-solid fa-check text-primary me-2"></i> Efficient IT Strategy Implementation
+          </li>
+          <li data-aos="fade-left" data-aos-delay="700" class="mb-2">
+            <i class="fa-solid fa-check text-primary me-2"></i> 24/7 Access to Expert IT Support
+          </li>
+        </ul>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 flex-box-between bg-color-gray ps-4 pe-4 pt-4">
-                <div>
-                    <h1 class="theme-color fw-bold ">Your Journey to Enhanced Managed IT Services.</h1>
-                    <p class="mt-5 mb-5 ">Stratosphere Networks helps businesses bypass the traditional sales process
-                        and quickly identify leading Unified into Stratosphere Networks helps businesses bypass the
-                        traditional.
-                    </p>
-                    <!-- Pointers -->
-                    <p data-aos="fade-left" data-aos-delay="300"><i class="text-primary fa-solid fa-check"></i>98%
-                        Customer
-                        Satisfaction Rate</p>
-                    <p data-aos="fade-left" data-aos-delay="500"><i class="text-primary fa-solid fa-check"></i>98%
-                        Customer
-                        Satisfaction Rate</p>
-                    <p data-aos="fade-left" data-aos-delay="700"><i class="text-primary fa-solid fa-check"></i>24/7
-                        Access
-                        to Expert IT Support</p>
+        <!-- Button -->
+        <a href="#" class="btn btn-primary about-btn-lg mt-3">
+          More Services <span class="dot dot-lg"></span>
+        </a>
+      </div>
 
-                    <!-- Button -->
-                    <a href="#" class="about-btn about-btn-lg  ">More Services <span class="dot dot-lg"></span></a>
-                </div>
+      <!-- Right Image -->
+      <div class="col-lg-6">
+        <img src="https://themexriver.com/wp/technox/wp-content/uploads/2025/06/c1-img-1.webp" 
+             class="img-fluid rounded w-100" 
+             alt="Managed IT Services">
+      </div>
 
-            </div>
-            <div class="col-lg-6 mt-4 mt-lg-0 ">
-                <img src="https://themexriver.com/wp/technox/wp-content/uploads/2025/06/c1-img-1.webp"
-                    class="img-fluid w-100 rounded" alt="Image">
-            </div>
-        </div>
     </div>
-
+  </div>
 </section>

@@ -77,7 +77,31 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 
+<script >
+  document.addEventListener("DOMcontentLoaded", () => {
+    const counters = document.querySelectorAll(".stat-number");
 
+    const startCounter = (countet) => {
+      let target = +counter.getAttribute("data-target");
+      let count = 0;
+      let speed = 30;
+
+      const updateCount = () => {
+        if(count < target){
+          count++;
+          counter.textContetn = count;
+          setTimeout(updateCount, speed);
+        }else{
+          counter.textContent = target;
+        }
+      };
+      updateCount();
+    };
+
+    const observer = 
+
+  })
+</script>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {

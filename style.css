@@ -10,6 +10,12 @@ body {
   overflow-x: hidden;
 }
 
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+
 /* desktop section */
 .main-nav {
   display: block;
@@ -278,3 +284,6 @@ header {
   height: 70vh;
 }
 
+.c-white{
+  color: white !important;
+}
