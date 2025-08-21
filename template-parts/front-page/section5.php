@@ -47,32 +47,12 @@
             </div>
 
             <!-- Right Form -->
-            <div class="col-lg-6 mt-lg-5 mt-4" data-aos="slide-right" data-aos-delay="200">
-                <div class="bannerForm shadow-lg">
-                    <h3 class="heading-3-lg heading-2">
-                        <?php the_field('section5_form_title'); ?>
-                    </h3>
-                    <p class="p1-lg p2">
-                        <?php the_field('section5_form_text'); ?>
-                    </p>
-
-                    <!-- Static Form (you can replace with Contact Form 7 shortcode) -->
-                    <form>
-                        <label for="Name">Name</label><br>
-                        <input type="text" name="Name" placeholder="Enter Your Name!"><br>
-
-                        <label for="Email">Email</label><br>
-                        <input type="email" name="Email" placeholder="Enter Your Email!"><br>
-
-                        <label for="Password">Password</label><br>
-                        <input type="password" name="Password" placeholder="Enter Your Password!">
-                    </form>
-
-                    <div class="bannerForm-btn-box">
-                        <button class="form-btn">Submit Now</button>
-                    </div>
-                </div>
-            </div>
+            <div class="col-lg-6 h-100 d-flex align-items-center mt-4 mt-lg-0" data-aos="slide-right" data-aos-delay="200">
+        <div class="bannerForm shadow-lg p-lg-5 p-4 rounded bg-white w-100">
+          <!-- Contact Form 7 Shortcode -->
+          <?php echo do_shortcode('[contact-form-7 id="4357891" title="my-contact-form"]'); ?>
+        </div>
+      </div>
         </div>
     </div>
 </section>

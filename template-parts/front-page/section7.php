@@ -7,9 +7,9 @@
             <span class="badge gri-color mb-2 ps-3 pe-3 fs-5">
                 <?php echo get_field('section_pricing_badge'); ?>
             </span>
-            <h2 class="fw-bold text-secondary">
+            <h1 class="fw-bold theme-color section-title fs-2">
                 <?php echo get_field('section_pricing_title'); ?>
-            </h2>
+            </h1>
         </div>
 
         <div class="row g-4">

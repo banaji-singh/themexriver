@@ -82,18 +82,12 @@ AOS.init({
 });
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script>
-  const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
-    smooth: true,
-    inertia: 0.7   // 0.1–1 (जितना कम, उतना smooth & buttery)
-  });
+  new WOW().init();
 </script>
-
 
 
 <?php wp_footer(); ?>
 </body>
-
 </html>

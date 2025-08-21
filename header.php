@@ -8,6 +8,8 @@
 
   <!-- AOS Animation CSS -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
  
   <!-- font family -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -18,6 +20,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/media.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/freamwork.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/mobile-framework.css">
+
   <title>Themexriver</title>
   <?php wp_head(); ?>
 </head>

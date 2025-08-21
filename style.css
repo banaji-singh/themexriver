@@ -4,10 +4,9 @@ Author: Rohit
 Version: 1.1
 Description: This is a WooCommerce theme 
 */
-
 body {
-  font-family: 'Arial', sans-serif;
-  overflow-x: hidden;
+    font-family: 'Roboto', sans-serif; /* Body text */
+    overflow-x: hidden;
 }
 
 html, body {
@@ -286,4 +285,270 @@ header {
 
 .c-white{
   color: white !important;
+}
+
+
+
+
+/* Parent menu items */
+.menu-item-has-children {
+  position: relative;
+}
+
+/* Submenu hidden by default */
+.menu-item-has-children .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 10;
+  background: #f8f6f6;
+  list-style: none;
+  min-width: 100px;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 4px 8px rgba(15, 15, 15, 0.1);
+  z-index: 9999;
+}
+
+/* Show submenu on hover */
+.menu-item-has-children:hover > .sub-menu {
+  display: block;
+}
+
+/* Submenu items styling */
+.sub-menu li {
+  border-bottom: 1px solid #ccc0c0;
+}
+
+.sub-menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.sub-menu li a:hover {
+  background: #8d878700;
+  color: #000;
+}
+
+
+/* Parent menu with dropdown indicator */
+.menu-item-has-children > a {
+  position: relative;
+  padding-right: 20px; /* space for arrow */
+}
+
+/* Add arrow symbol after parent item */
+.menu-item-has-children > a::after {
+  content: " ▼";  /* you can use "►" for side arrow */
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000000;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when hovered (optional) */
+.menu-item-has-children:hover > a::after {
+  transform: translateY(-50%) rotate(180deg);
+  color: #000;
+}
+
+
+
+
+.wave-text span {
+    display: inline-block;
+    font-size: 2rem;
+    animation: wave 0.8s ease-in-out;
+}
+
+.wave-text span:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.wave-text span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.wave-text span:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.wave-text span:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.wave-text span:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.wave-text span:nth-child(6) {
+    animation-delay: 1.2s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Project section1 */
+
+.first-w {
+  font-size: 12em;
+  color: #ccc0c0;   /* gray fill */
+  position:absolute;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.second-w {
+  font-size: 12em;
+  color: transparent;               /* no fill */
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.651);   /* outline */
+  position: relative;
+  left: 0.5rem;
+  top: 0.5rem;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+.our-best{
+  font-size: 3em;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+
+/* green-dot-btn */
+
+  .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #1e6bff;  /* blue background */
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 12px 24px;
+      border-radius: 999px; /* pill shape */
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #1555cc; /* darker blue on hover */
+    }
+
+    .btn .circle {
+      width: 10px;
+      height: 10px;
+      background: #34f7b6; /* green circle */
+      border-radius: 50%;
+    }
+
+
+/* background color */
+
+.bg-mint-green {
+  background-color: #3ff0b5; /* mint green */
+}
+.bg-mint-yellow{
+  background-color: #FFFF00;
+}
+
+.bg-lime-green{
+  background-color: #ccff66;
+}
+
+/* Project Group Btn */
+ .p-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px; /* spacing between buttons */
+    max-width: 400px;
+    justify-content: center;
+  }
+  .p-btn {
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-radius: 999px; /* pill shape */
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.2); /* greenish-gray pill */
+    color: #000; /* black text */
+    transition: all 0.3s ease;
+  }
+  .p-btn:hover {
+    background: #1e6bff; /* blue active button */
+    color: #fff; 
+  }
+
+
+
+
+  /* Accordion FAQ */
+    .accordion {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .accordion-item {
+      background: #fff;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+
+    .accordion-header {
+      padding: 15px 20px;
+      cursor: pointer;
+      background: #f0f0f0;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .accordion-header:hover{
+      color: #1555cc;
+    }
+
+    .accordion-header .icon {
+      font-size: 20px;
+      font-weight: bold;
+      transition: transform 0.3s ease;
+    }
+
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      padding: 0 20px;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+    }
+
+    .accordion-content p {
+      margin: 15px 0;
+    }
+
+    .accordion-item.active .accordion-content {
+      max-height: 200px;
+      padding: 15px 20px;
+    }
+
+
+.pro-sec4-headin-1{
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 3em;
+  margin-bottom: 2rem;
 }
