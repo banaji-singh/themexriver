@@ -5,34 +5,36 @@
       <!-- Left Content -->
       <div class="col-lg-6 mb-4 mb-lg-0 px-4 bg-color-gray p-4 rounded">
         <h1 class="theme-color fw-bold mb-4">
-          Your Journey to Enhanced Managed IT Services
+          <?php echo esc_html(get_field('about_section3_headline')); ?>
         </h1>
         <p class="mb-4">
-          Stratosphere Networks helps businesses bypass the traditional sales process and quickly identify leading Unified solutions for their IT needs.
+          <?php echo esc_html(get_field('about_section3_paragraph')); ?>
         </p>
 
         <!-- Pointers -->
         <ul class="list-unstyled">
           <li data-aos="fade-left" data-aos-delay="300" class="mb-2">
-            <i class="fa-solid fa-check text-primary me-2"></i> 98% Customer Satisfaction Rate
+            <i class="fa-solid fa-check text-primary me-2"></i> <?php echo esc_html(get_field('about_section3_pointer1')); ?>
           </li>
           <li data-aos="fade-left" data-aos-delay="500" class="mb-2">
-            <i class="fa-solid fa-check text-primary me-2"></i> Efficient IT Strategy Implementation
+            <i class="fa-solid fa-check text-primary me-2"></i> <?php echo esc_html(get_field('about_section3_pointer2')); ?>
           </li>
           <li data-aos="fade-left" data-aos-delay="700" class="mb-2">
-            <i class="fa-solid fa-check text-primary me-2"></i> 24/7 Access to Expert IT Support
+            <i class="fa-solid fa-check text-primary me-2"></i> <?php echo esc_html(get_field('about_section3_pointer3')); ?>
           </li>
         </ul>
 
         <!-- Button -->
-        <a href="#" class="btn btn-lg mt-3 wow animate__animated animate__bounceInRight"  data-wow-delay="0.5s">
-          More Services <span class="circle"></span>
+        <a href="<?php echo esc_url(get_field('about_section3_button_link')); ?>" 
+           class="btn btn-lg mt-3 wow animate__animated animate__bounceInRight"  
+           data-wow-delay="0.5s">
+          <?php echo esc_html(get_field('about_section3_button_text')); ?> <span class="circle"></span>
         </a>
       </div>
 
       <!-- Right Image -->
       <div class="col-lg-6">
-        <img src="https://themexriver.com/wp/technox/wp-content/uploads/2025/06/c1-img-1.webp" 
+        <img src="<?php echo esc_url(get_field('about_section3_image')); ?>" 
              class="img-fluid rounded w-100" 
              alt="Managed IT Services">
       </div>

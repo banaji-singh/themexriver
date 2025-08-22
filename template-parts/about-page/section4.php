@@ -10,10 +10,13 @@
                        <span class="wow animate__animated animate__bounceInRight"  data-wow-delay="1s">focus </span> 
                        <span class="wow animate__animated animate__bounceInRight"  data-wow-delay="1.2s">on your </span>
                         <span class="wow animate__animated animate__bounceInRight"  data-wow-delay="1.4s"> business.</span></h1>
-                    <p class="mt-5 mb-5 ">Stratosphere Networks helps businesses bypass the traditional sales
-                    process and quickly identify leading Unified into Stratosphere Networks
-                    helps businesses bypass the traditional.
-                    </p>
+                        <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
+                    <p class="mt-4 mb-4">We provide comprehensive IT solutions tailored to your business needs, ensuring seamless operations and enhanced productivity.</p>
+                    <a href="<?php echo esc_url(get_field('about_section4_button_link')); ?>" 
+                       class="btn btn-lg mt-3 wow animate__animated animate__bounceInRight"  
+                       data-wow-delay="0.5s">More Service<span class="circle"></span>
+                    </a>
+                    <p class="mt-5 mb-5 "><?php ?></p>
                 </div>
             </div>
         </div>
