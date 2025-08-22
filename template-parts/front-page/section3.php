@@ -36,7 +36,7 @@
                     <p><?php the_field('section3_box1_text'); ?></p>
                     <hr style="color:blue;">
                     <a href="<?php the_field('section3_box1_button_link'); ?>">
-                        <button><?php the_field('section3_box1_button_text'); ?> <i class=""></i></button>
+                        <button class="btn btn-lg c-white"><?php the_field('section3_box1_button_text'); ?><i class="fa-solid fa-right-to-bracket"></i></button>
                     </a>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     <p><?php the_field('section3_box2_text'); ?></p>
                     <hr style="color:blue;">
                     <a href="<?php the_field('section3_box2_button_link'); ?>">
-                        <button><?php the_field('section3_box2_button_text'); ?> <i class=""></i></button>
+                        <button class="btn btn-lg c-white"><?php the_field('section3_box2_button_text'); ?> <i class="fa-solid fa-right-to-bracket"></i></button>
                     </a>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     <p><?php the_field('section3_box3_text'); ?></p>
                     <hr style="color:blue;">
                     <a href="<?php the_field('section3_box3_button_link'); ?>">
-                        <button><?php the_field('section3_box3_button_text'); ?> <i class=""></i></button>
+                        <button class="btn btn-lg c-white"><?php the_field('section3_box3_button_text'); ?> <i class="fa-solid fa-right-to-bracket"></i></button>
                     </a>
                 </div>
             </div>

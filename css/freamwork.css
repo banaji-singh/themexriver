@@ -77,21 +77,6 @@
     }
 
 
-    .btn-lg {
-        font-family: Inter;
-        font-weight: 600;
-        font-size: 20px;
-        leading-trim: NONE;
-        line-height: 28px;
-        letter-spacing: 0%;
-        background: linear-gradient(to right, #0ACEFE, #2699FB);
-        padding: 8px 20px;
-        border: none;
-        border-radius: 5px;
-        color: white;
-        box-shadow: 2px 2px 4px #0A2134;
-    }
-
     .icon-box-left-lg {
         display: flex;
         gap: 10px;

@@ -428,32 +428,41 @@ header {
 
 /* green-dot-btn */
 
-  .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: #1e6bff;  /* blue background */
-      color: #fff;
-      font-weight: bold;
-      font-size: 16px;
-      padding: 12px 24px;
-      border-radius: 999px; /* pill shape */
-      text-decoration: none;
-      border: none;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
+.btn-lg {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #1e6bff;  /* blue background */
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 999px; /* pill shape */
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 2px 2px 4px #0A2134;
+}
 
-    .btn:hover {
-      background: #1555cc; /* darker blue on hover */
-    }
+.btn-lg:hover {
+  background: #1555cc; /* darker blue on hover */
+  color: rgba(255, 255, 255, 0.822);
+}
 
-    .btn .circle {
-      width: 10px;
-      height: 10px;
-      background: #34f7b6; /* green circle */
-      border-radius: 50%;
-    }
+/* circle base */
+.btn-lg .circle {
+  width: 10px;
+  height: 10px;
+  background: #34f7b6; /* green circle */
+  border-radius: 50%;
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+/* circle grows when button is hovered */
+.btn-lg:hover .circle {
+  transform: scale(2); /* 2x size */
+}
 
 
 /* background color */
@@ -469,14 +478,11 @@ header {
   background-color: #ccff66;
 }
 
+.bg-navy-blue{
+  background-color:  #041B3E;
+}
+
 /* Project Group Btn */
- .p-btn-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px; /* spacing between buttons */
-    max-width: 400px;
-    justify-content: center;
-  }
   .p-btn {
     padding: 10px 20px;
     margin: 10px 0px;
@@ -551,4 +557,23 @@ header {
   font-family: 'Poppins', sans-serif !important;
   font-size: 3em;
   margin-bottom: 2rem;
+  
+}
+
+
+
+.single-pro-content-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  padding: 30px;
+  position: relative;
+  
+}
+
+.single-pro-content-box div p{
+  line-height: 30px;
+ 
+  
 }

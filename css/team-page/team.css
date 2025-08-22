@@ -1,0 +1,32 @@
+.team-img-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-img-box img {
+  width: 100%;
+  display: block;
+  border-radius: 10px; /* optional */
+}
+
+/* Detail Box Styling */
+.detail-box {
+  position: absolute;
+  bottom: -40%; /* hidden initially */
+  width: 80%;
+  background: rgba(255, 255, 255, 0.795); 
+  color: #202020;
+  padding: 15px;
+  align-items: center;
+  left: 2rem;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  border-radius: 5px;
+ 
+}
+
+/* On Hover */
+.team-img-box:hover .detail-box {
+  bottom: 0; /* slide up */
+}
+

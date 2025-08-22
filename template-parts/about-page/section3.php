@@ -25,8 +25,8 @@
         </ul>
 
         <!-- Button -->
-        <a href="#" class="btn btn-primary about-btn-lg mt-3 wow animate__animated animate__bounceInRight"  data-wow-delay="0.5s">
-          More Services <span class="dot dot-lg"></span>
+        <a href="#" class="btn btn-lg mt-3 wow animate__animated animate__bounceInRight"  data-wow-delay="0.5s">
+          More Services <span class="circle"></span>
         </a>
       </div>
 

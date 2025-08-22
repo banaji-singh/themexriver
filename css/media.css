@@ -98,7 +98,7 @@
 
 .s3-box-2 figure i{
   font-size: 50px;
-  background: linear-gradient(to bottom, #0ACEFE, #2699FB);
+   background: linear-gradient(to right,#0ACEFE,#2699FB );
   -webkit-background-clip: text;  /* Chrome, Safari */
   background-clip: text;          /* Standard */
   -webkit-text-fill-color: transparent; /* Chrome, Safari ke liye */

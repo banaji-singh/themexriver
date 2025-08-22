@@ -2,6 +2,15 @@
 add_theme_support('post-thumbnails');
 register_nav_menus(['Menu-Key' => 'Home Menu']);
 
+
+// Theme setup function
+function mytheme_setup() {
+    // Featured image (post thumbnails) enable
+    add_theme_support('post-thumbnails');
+}
+add_action('after_setup_theme', 'mytheme_setup');
+
+
 function my_enqueue_style(){
     wp_enqueue_style('style',get_stylesheet_uri());
 } 

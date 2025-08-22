@@ -11,7 +11,7 @@
                         Stratosphere Networks helps businesses bypass the traditional sales process and quickly identify leading Unified
                     </p>
                     <!-- Button -->
-                    <a href="#" class="about-btn about-btn-lg wow animate__animated animate__bounceInRight"  data-wow-delay="0.5s">More Services <span class="dot dot-lg"></span></a>
+                    <a href="#" class="btn btn-lg wow animate__animated animate__bounceInRight"  data-wow-delay="0.5s">More Services <span class="circle"></span></a>
                 </div>
 
             </div>
